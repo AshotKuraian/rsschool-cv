@@ -88,7 +88,7 @@ function calculateProfit(amount, percent, period) {
 
 ### Courses
 
-* Modern textbook JavaScript on learnjavascript.ru(https://learn.javascript.ru/) (in progress)
+* Modern textbook JavaScript on [learnjavascript.ru](https://learn.javascript.ru/) (in progress)
 * RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
 
 *********
