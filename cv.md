@@ -1,4 +1,4 @@
-![](https://github.com/AshotKuraian/rsschool-cv/blob/gh-pages/my_photo_cv1.jpg?raw=true)
+![](https://github.com/AshotKuraian/rsschool-cv/raw/gh-pages/my_photo_cv1.jpg?raw=true)
 
 # Ashot Kuraian
 
