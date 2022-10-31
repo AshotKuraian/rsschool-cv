@@ -1,4 +1,4 @@
-![](file:///D:/rs_school/rsschool-cv/my_photo_cv1.jpg)
+![](https://github.com/AshotKuraian/rsschool-cv/blob/gh-pages/my_photo_cv1.jpg?raw=true)
 
 # Ashot Kuraian
 
@@ -10,10 +10,10 @@
 
 ### Contact information
 
-**Phone:** +38 0957590333 (WhatsApp, Telegram, Viber)  
-**E-mail:** kuraiana@gmail.com  
-[LinkedIn](https://www.linkedin.com/in/ashot-kuraian-492659245/)  
-[GitHub](https://github.com/AshotKuraian)  
+**Phone:** +38 0957590333 (WhatsApp, Telegram, Viber)     
+**E-mail:** kuraiana@gmail.com      
+[LinkedIn](https://www.linkedin.com/in/ashot-kuraian-492659245/)     
+[GitHub](https://github.com/AshotKuraian)     
 
 *********
 
