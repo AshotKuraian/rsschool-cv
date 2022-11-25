@@ -7,40 +7,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://raw.githubusercontent.com/AshotKuraian/rsschool-cv/rsschool-cv-html/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Ashot Kuraian CV</title>
 
 </head>
 
 <body>
 
-    <header>
+    <header class="header">
+            
 
-        <img src="https://github.com/AshotKuraian/rsschool-cv/blob/rsschool-cv-html/Ashot_Kuraian_photo.jpg?raw=true" alt="Ashot Kuraian photo" width="240" height="240">
-        <h1>Ashot Kuraian</h1>
-        <p>Junior Frontend Developer</p>
+        <div class="my-photo">
+            <img class="cv-photo" src="https://github.com/AshotKuraian/rsschool-cv/blob/rsschool-cv-html/Ashot_Kuraian_photo.jpg?raw=true" alt="Ashot Kuraian photo" width="240" height="240">
+        </div>
 
+        <div id="name-and-job" class="name-and-job">
+            <h1>Ashot Kuraian</h1>
+            <p>Junior Frontend Developer</p>
+        </div>
+
+            
     </header>
 
-    <nav>
+    <nav class="nav">
 
-        <ul>
-            <li><a href="#contact-information">Contact information</a></li>
-            <li><a href="#basic-goals">Basic Goals</a></li>
-            <li><a href="#personal-qualities">Personal Qualities</a></li>
-            <li><a href="#about-myself">About Myself</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#work-experience">Work experience</a></li>
-            <li><a href="#skills-and-knowledge">Skills and knowledge</a></li>
-            <li><a href="#code-example">Code example</a></li>
-            <li><a href="#courses">Courses</a></li>
-            <li><a href="#languages">Languages</a></li>
+        <ul class="nav-list">
+            <li><a href="#name-and-job" class="nav-link">TOP</a></li>
+            <li><a href="#contact-information" class="nav-link">Contact information</a></li>
+            <li><a href="#basic-goals" class="nav-link">Basic Goals</a></li>
+            <li><a href="#personal-qualities" class="nav-link">Personal Qualities</a></li>
+            <li><a href="#about-myself" class="nav-link">About Myself</a></li>
+            <li><a href="#education" class="nav-link">Education</a></li>
+            <li><a href="#work-experience" class="nav-link">Work experience</a></li>
+            <li><a href="#skills-and-knowledge" class="nav-link">Skills and knowledge</a></li>
+            <li><a href="#code-example" class="nav-link">Code example</a></li>
+            <li><a href="#courses" class="nav-link">Courses</a></li>
+            <li><a href="#languages" class="nav-link">Languages</a></li>
         </ul>
 
     </nav>
 
-    <main>
+    <main class="main">
 
-        <section>
+        <section class="section">
 
             <h3 id="contact-information">Contact information</h3>
             <p><b>Phone:</b> +38 0957590333 (WhatsApp, Telegram, Viber)</p>     
@@ -49,16 +63,16 @@
             <p><a href="https://github.com/AshotKuraian"><b>GitHub</b></a></p>
 
         </section>
-        
-        <section>
+            
+        <section class="section">
 
             <h3 id="basic-goals">Basic Goals</h3>
             <p><b>Tactical</b> - get started as Junior Frontend Developer</p>
             <p><b>Strategic</b> - Build a long-term and successful career as a Frontend, JavaScript or Full-Stack Developer in a company that will be based on the achievement of common goals, mutual respect and mutual assistance and openness</p>
-        
+            
         </section>
 
-        <section>
+        <section class="section">
 
             <h3 id="personal-qualities">Personal Qualities</h3>
             <ul>
@@ -70,20 +84,28 @@
 
         </section>
 
+        <section>
+
             <h3 id="about-myself">About Myself</h3>
             <p>I am 36 years old. I am a friendly person, open to the world, to new knowledge and acquaintances. I like to travel, learn something new. Married. Together with my wife, I am raising two wonderful little children. I try to spend my free time actively: walks in the park, swimming, cycling, etc.</p>
 
-        <section>
+        </section>
+
+        <section class="section">
 
             <h3 id="education">Education</h3>
             <p>I have higher education in the field of electric power industry, economics and nuclear energy</p>
 
         </section>
 
+        <section>
+
             <h3 id="work-experience">Work experience</h3>
             <p>I don't have experience in front-end development yet</p>
 
-        <section>
+        </section>
+
+        <section class="section">
 
             <h3 id="skills-and-knowledge">Skills and knowledge</h3>
             <ul>
@@ -98,7 +120,7 @@
 
         </section>
 
-        <section>
+        <section class="section">
 
             <h3 id="code-example">Code example</h3>
             <p><i>Task:</i></p>
@@ -109,7 +131,7 @@
                 if(amount==0||percent==0||period==0) {return 0;}<br>
                 let amountWithPercent = 0;<br>
                 for (let i=1; i&lt;=period; i++){<br>
-                 amountWithPercent=amount*((1+(percent/100))**i);<br>
+                amountWithPercent=amount*((1+(percent/100))**i);<br>
                 }<br>
                 let profit = amountWithPercent-amount;<br>
                 return profit;<br>
@@ -118,7 +140,7 @@
 
         </section>
 
-        <section>
+        <section class="section">
             <h3 id="courses">Courses</h3>
             <ul>
                 <li><a href="https://learn.javascript.ru/">Modern textbook JavaScript</a> (in progress)</li>
@@ -127,7 +149,7 @@
 
         </section>
 
-        <section>
+        <section class="section">
 
             <h3 id="languages">Languages</h3>
             <ul>
@@ -139,10 +161,10 @@
 
     </main>
 
-    <footer>
-
+    <footer class="footer">
+        
         <address>
-            Netherlands
+            2022 Netherlands
         </address>
 
     </footer>
