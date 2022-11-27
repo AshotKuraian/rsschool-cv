@@ -1,1 +1,1 @@
-https://AshotKuraian.github.io/rsschool-cv/
+https://ashotkuraian.github.io/rsschool-cv/index.html
